@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "json-server": "^1.0.0-beta.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamersezer/packing-list-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamersezer/packing-list-api/issues"
+  },
+  "homepage": "https://github.com/tamersezer/packing-list-api#readme",
+  "description": ""
 }
